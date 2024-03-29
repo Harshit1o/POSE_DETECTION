@@ -5,16 +5,16 @@ Overview
 This Python program utilizes the MediaPipe library along with OpenCV to count sit-ups in real-time using a webcam feed. It detects the landmarks of the human body, specifically focusing on the hip, knee, and ankle joints to determine the angle between them, which helps identify the sitting-up and lying-down stages of a sit-up exercise.
 Requirements
 
-    ```Python 3.x
+    Python 3.x
     OpenCV
-    MediaPipe```
+    MediaPipe
 
 ## Installation
 
 Clone or download the repository to your local machine.
 Install the required dependencies using pip:
 
-    ```pip install opencv-python mediapipe```
+    pip install opencv-python mediapipe
 
 ## Usage
 
